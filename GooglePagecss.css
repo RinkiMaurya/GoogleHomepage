@@ -1,11 +1,6 @@
 body{
     margin: 0;
 }
-#outer{
-    background-image: url("img1.jpg");
-    height:auto;
-    width: auto;
-}
 #nav{   
     display: flex;
     justify-content: flex-end;
@@ -42,17 +37,19 @@ body{
     margin: 0 auto;
     max-width:580px ;
     width: 75vw;
+    outline: 0;
 
     
 }
 #search_input input {
  flex:1;
- padding: 10px 30px;
- border-radius:10px;
+ padding: 10px 20px;
+ border: none;
+ outline: none;
     
 }
 #search_input .material-icons{
-    color:gray;
+    color:black;
     cursor: pointer;
     
 
@@ -61,7 +58,7 @@ body{
     margin-top: 30px;
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 10px 20px;
 }
 #search_buttons button{
     margin: 5px;
